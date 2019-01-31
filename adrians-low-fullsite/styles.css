@@ -1,0 +1,73 @@
+/* Gerneral Styles */
+
+* {
+    background-color: black;
+}
+
+h1, p, a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Sidenav */
+
+.navbar-fixed-left {
+    padding: 0;
+  width: 140px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+  border: 0;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start
+
+
+  
+}
+
+.nav li a {
+    padding: 10px 45px;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;
+  width: 130px;
+  color: red;
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 160px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+  margin-top: -50px;
+  margin-left: 140px;
+}
+
+.logo {
+
+    background-image: url(./logo/low-logo-05.svg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 780px;
+    vertical-align: baseline;
+
+}
+/* Hero */
+
+.hero {
+    background-image:
+        /* linear-gradient(     
+            rgba(240, 166, 166, 0.7) 0%,
+            rgba(0,0,0,0.0) 0%,
+            rgba(0,0,0,0.0) 60%,
+            rgba(250,0,0,225) 135%), */
+        url('./images/lowcity.jfif');
+    background-size: cover;
+    background-repeat: none;
+    height: 800px;
+    background-position: 50% 50%;
+    padding-bottom: 20px;
+}
