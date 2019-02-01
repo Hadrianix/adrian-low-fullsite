@@ -75,16 +75,27 @@ h2 {
 .navbar-nav{
     display: flex;
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
     margin-bottom: 30px;
 }
 
 .nav li a {
+    display: flex;
+    justify-content: center;
     padding: 10px 45px;
     color: gray;
     margin-bottom: 5px;
     justify-content: space-evenly;
 
+}
+.nav .icons {
+    display: flex;
+}
+.nav i {
+
+    padding-left: 42px;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar-fixed-left .navbar-nav > li {
@@ -164,9 +175,17 @@ h2 {
         padding: 0px;
         background-size: cover;
         background-position: 50% 50%;
+        width:100vw;
     }
-    
+    html {
+        width:100vw;
+        height: 100%;
+    }
 
+    body {
+        width:100vw;
+        height: 100%;
+    }
 
 }
 
@@ -225,6 +244,20 @@ h2 {
 .image-1 h2{
     font-size: 35px;
     color: #008D9C;
+}
+
+@media(max-width:600px) {
+    .buildingpic {
+        align-content: center;
+        display: inline-block;
+        float: none;
+    }
+
+    .image-1 {
+        display: inline-block;
+        padding: 20px;
+
+    }
 }
 
 .section-1  {
