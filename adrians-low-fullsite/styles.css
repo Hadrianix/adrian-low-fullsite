@@ -1,6 +1,7 @@
 /* Gerneral Styles */
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 * {
     /* background-color: black; */
@@ -191,6 +192,23 @@ h2 {
 
 }
 
+
+.section-3 {
+    display: flex;
+}
+
+.section-3 .container {
+    flex: 1;
+}
+
+.section-3 .imagecontainer {
+    flex: 0 0 40%;
+}
+
+
+.imagecontainer img {
+    width: 100%;
+}
 .content {
     float:right;
     width: 500px;
@@ -218,7 +236,7 @@ h2 {
 }
 
 .content a {
-    color: black;
+    color: white;
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
@@ -228,15 +246,10 @@ h2 {
 /* Main Content */
 
 
-.buildingpic {
-    float: right;
-    width: 500px;
-    height: 700px;
-}
+
 
 .image-1 {
-    width: 650px;
-    height: 650px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
