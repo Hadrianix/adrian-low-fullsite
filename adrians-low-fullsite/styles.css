@@ -3,7 +3,7 @@ body {
     background-color: black;
 }
 * {
-    background-color: black;
+    /* background-color: black; */
 }
 
 h1, p, a {
@@ -151,7 +151,7 @@ h2 {
     background-position: 50% 50%;
     padding-bottom: 20px;
     padding-left: 140px;
-
+    align-items: flex-end;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -171,7 +171,13 @@ h2 {
 }
 
 .content {
-    /* opacity: 0; */
+    float:right;
+    width: 500px;
+    height: 700px;
+    padding-top: 600px
+
+
+
 }
 
 .content h1 {
@@ -191,7 +197,7 @@ h2 {
 }
 
 .content a {
-    color: white;
+    color: black;
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
@@ -217,8 +223,8 @@ h2 {
 }
 
 .image-1 h2{
-    font-size: 40px;
-    color: white;
+    font-size: 35px;
+    color: #008D9C;
 }
 
 .section-1  {
