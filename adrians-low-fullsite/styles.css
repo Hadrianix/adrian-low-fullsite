@@ -24,12 +24,15 @@ h1, p, a {
 .topbar .links {
     color: white
 }
-
+@media (max-width: 600px) {
+    .topbar {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
 
 /* Sidenav */
-
-
-
 
 .navbar-fixed-left {
     padding: 0;
