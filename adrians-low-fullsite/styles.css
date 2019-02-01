@@ -10,6 +10,10 @@ h1, p, a {
     font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+    font-family: 'Noto Serif SC', serif;
+}
+
 
 /* Top Bar */
 
@@ -167,7 +171,7 @@ h1, p, a {
 }
 
 .content {
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .content h1 {
@@ -196,7 +200,28 @@ h1, p, a {
 
 /* Main Content */
 
-.images  {
+
+.buildingpic {
+    float: right;
+    width: 500px;
+    height: 700px;
+}
+
+.image-1 {
+    width: 650px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image-1 h2{
+    font-size: 40px;
+    color: white;
+}
+
+.section-1  {
     display: block;
     max-width: 100%;
     padding-left: 140px;
