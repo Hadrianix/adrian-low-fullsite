@@ -1,12 +1,22 @@
 const getScrollPosition = () => {
     const x = document.querySelector('body')
     const overAll = x.getBoundingClientRect()
-    const percentValue = ((overAll.top / overAll.height * -1) * 900) + '%'
-    return percentValue
+    const innerHeight = window.innerHeight
+    const positionPecentage = overAll.top / overAll.height
+    const y = innerHeight * positionPecentage
+
+    const result = 'translateY(' + (y + 660) * -1 + 'px)'
+    console.log(result)
+    return result
 }
 
-document.onscroll = function () {
+
+
+const updatePosition = function () {
     const logo = document.querySelector('.logo')
-    let logoTop = document.querySelector('.logo').style.top;
-    logo.style.top = getScrollPosition()
+    logo.setAttribute('style', 'transform: ' + getScrollPosition())
 }
+
+document.onscroll = updatePosition
+
+updatePosition()
