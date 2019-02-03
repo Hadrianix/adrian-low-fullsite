@@ -319,8 +319,12 @@ h2 {
     }
 
     .mainpage .imagecontainer {
-        padding-bottom: 0px;
+        height: 0;
     } 
+
+    .mainpage .section-1 {
+        height: 200px;
+    }
 }
 
 .section-2 {
@@ -349,6 +353,23 @@ h2 {
     align-items: center;
     padding-left: 60px;
     
+}
+
+.mainpage .text {
+    display: flex;
+    width: 100%;
+    
+}
+
+.mainpage .text h2 {
+    justify-content: center;
+    align-content: center;
+}
+
+@media(max-width:600px) {
+    .mainpage .image-2 {
+        padding-left: 0;
+    }
 }
 
 
