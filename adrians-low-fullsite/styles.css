@@ -164,7 +164,7 @@ h2 {
   padding-left: 160px;
 }
 
-/* On using dropdown menu (To right shift popuped) */
+
 .navbar-fixed-left .navbar-nav > li > .dropdown-menu {
   margin-top: -50px;
   margin-left: 140px;
@@ -189,13 +189,6 @@ h2 {
         padding: 0px;
     }
 
-    /* .hero-content p {
-        display: flex;
-        justify-content: center;
-        padding: 0;
-        margin-bottom: 15px;
-
-    } */
 
 }
 
@@ -203,11 +196,6 @@ h2 {
 
 .mainpage .hero {
     background-image:
-        /* linear-gradient(     
-            rgba(240, 166, 166, 0.7) 0%,
-            rgba(0,0,0,0.0) 0%,
-            rgba(0,0,0,0.0) 60%,
-            rgba(250,0,0,225) 135%), */
         url('./images/lowcity.jfif');
     background-size: cover;
     background-repeat: none;
