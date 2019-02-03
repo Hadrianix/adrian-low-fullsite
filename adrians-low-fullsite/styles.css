@@ -1,10 +1,8 @@
 /* Gerneral Styles */
+
 body {
     background-color: black;
     overflow-x: hidden;
-}
-* {
-    /* background-color: black; */
 }
 
 h1, p, a {
@@ -61,6 +59,8 @@ h2 {
 @media (max-width: 600px) {
     .topbar {
         display: flex;
+        position: fixed;
+        background-color: black;
         justify-content: center;
         align-content: center;
         flex-wrap: row;
@@ -210,7 +210,7 @@ h2 {
 }
 
 @media (max-width: 600px) {
-    .hero {
+    .mainpage .hero {
         display: flex;
         justify-content: center;
         padding: 0px;
@@ -318,9 +318,6 @@ h2 {
 
     }
 
-    .mainpage .imagecontainer {
-        height: 0;
-    } 
 
     .mainpage .section-1 {
         height: 200px;
@@ -329,6 +326,7 @@ h2 {
 
 .section-2 {
     display: flex;
+    margin-top: 30px;
 }
 
 .mainpage .section-2 {
@@ -381,11 +379,35 @@ h2 {
 /* Footer */
 
 .footer-container {
-    display: flex;
+    display: none;
     width: 100%;
     height: 50px;
     padding-left: 140px;
-    background-color: red;
+    padding-top: 20px;
+    margin-top: 20px;
+
+    
+
+}
+.footer-container .icons {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media(max-width: 600px) {
+    .footer-icons {
+        display: flex;
+        padding-left: 0; 
+        color: white;
+    
+
+    }
+
+    .footer-container .footer .icons {
+        display: flex;
+        color: white;
+    }
 }
 
 
