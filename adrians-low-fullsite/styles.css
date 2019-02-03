@@ -249,7 +249,7 @@ h2 {
 
 
 .image-1 {
-    
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -259,6 +259,7 @@ h2 {
 .image-1 h2{
     font-size: 35px;
     color: #008D9C;
+    align-items: center;
 }
 
 @media(max-width:600px) {
