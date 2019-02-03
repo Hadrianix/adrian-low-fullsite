@@ -5,7 +5,7 @@ const getScrollPosition = () => {
     const positionPecentage = overAll.top / overAll.height
     const y = innerHeight * positionPecentage
 
-    const result = 'translateY(' + (y + 1450) * -1 + 'px)'
+    const result = 'translateY(' + (y + 1400) * -1 + 'px)'
     console.log(result)
     return result
 }
