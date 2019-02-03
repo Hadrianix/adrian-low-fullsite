@@ -227,6 +227,10 @@ h2 {
 
 /* Main Content */
 
+.mainpage .imagecontainer {
+    padding-bottom: 0px;
+}
+
 
 .mainpage .section-1 {
     display: flex;
@@ -313,6 +317,38 @@ h2 {
         font-size: 30px;
 
     }
+
+    .mainpage .imagecontainer {
+        padding-bottom: 0px;
+    } 
+}
+
+.section-2 {
+    display: flex;
+}
+
+.mainpage .section-2 {
+    flex: 1;
+    justify-content: center;
+}
+
+.mainpage .section-2 .imagecontainer {
+    flex: 0 0 70%;
+    padding-bottom: 5px;
+
+}
+
+.mainpage .imagecontainer img {
+    width: 100%;
+
+}
+
+.mainpage .image-2 {
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    
 }
 
 
