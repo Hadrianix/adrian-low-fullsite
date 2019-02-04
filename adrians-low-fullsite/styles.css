@@ -548,6 +548,14 @@ h3 {
     color: #008D9C;
 }
 
+@media(max-width:600px) {
+    .aboutpage .top-section {
+        margin-bottom: 0;
+    }
+
+}
+
+
 
 
 
