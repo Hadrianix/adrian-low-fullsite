@@ -72,11 +72,14 @@ h3 {
         align-content: center;
         flex-wrap: row;
         text-decoration: none;
+        transition: width 3s;
     }
 
     .topbar a:hover{
         color: #008D9C;
     }
+
+    
 
     .links {
 
@@ -103,6 +106,7 @@ h3 {
 
     .topbar a {
         text-decoration: none;
+        
     }
 }
 
@@ -454,6 +458,20 @@ h3 {
 }
 
 /* Clients */
+
+.clients-page .container h3 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.clients-page .container p {
+    font-size: 20px;
+    color: #008D9C;
+    text-align: center;
+}
+
+
 
 /* About Page */
 
