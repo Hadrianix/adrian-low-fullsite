@@ -475,6 +475,22 @@ h3 {
     margin-top: 40px;
 }
 
+.clients-page .hero2 {
+    background-image:
+    url('./images/clock-1461689_1920.jpg');
+    background-size: cover;
+    background-repeat: none;
+    height: 600px;
+    background-position: 50% 50%;
+    padding-bottom: 20px;
+    padding-left: 140px;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
 .clients-page .content {
     display: flex;
     flex-wrap: column;
@@ -488,6 +504,14 @@ h3 {
 @media(max-width:600px) {
     .clients-page .content {
         padding-right: 70px;
+    }
+
+    .clients-page p {
+        padding-left: 0;
+    }
+
+    .clients-page h1 {
+        padding-left: 0;
     }
 }
 
@@ -505,6 +529,20 @@ h3 {
 
 .clients-page .top-section {
     padding-top: 60px;
+}
+
+.clients-page h2 {
+    padding: 60px;
+    padding-left: 160px;
+    text-align: center;
+    color: #008D9C;
+}
+
+.clients-page .text2 p {
+    padding-left: 160px;
+    padding: 50px;
+    color: white;
+    margin-left: 160px;
 }
 
 
@@ -614,11 +652,26 @@ h3 {
 .aboutpage .hero-text {
     margin-top: 20px;
     text-align: center;
-    color: #008D9C;
     padding-right: 60px;
     padding-left: 160px;
 }
 
+.aboutpage .hero-text h1 {
+
+
+    color: #008D9C;
+
+
+}
+
+
+.aboutpage .hero-text p {
+
+
+    color: white;
+
+
+}
 @media(max-width:600px) {
     .aboutpage .top-section {
         margin-bottom: 0;
