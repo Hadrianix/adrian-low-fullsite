@@ -555,6 +555,52 @@ h3 {
 
 }
 
+/* Contact Page */
+
+.contactpage .top-section {
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    
+}
+
+.contactpage .container p {
+    text-align: center;
+    color: white;
+}
+
+.contactpage .hero {
+
+
+    background-image:
+    url('./images/writing-828911_1920.jpg');
+    background-size: cover;
+    background-repeat: none;
+    height: 500px;
+    background-position: 50% 50%;
+    padding-bottom: 20px;
+    padding-left: 140px;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+
+
+.aboutpage form {
+    padding-left: 160px;
+    margin-left: 160px;
+}
+
+@media(max-width:600px) {
+    .aboutpage form {
+        padding-left: 0;
+    }
+}
+
 
 
 
