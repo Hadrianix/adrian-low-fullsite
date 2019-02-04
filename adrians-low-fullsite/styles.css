@@ -459,6 +459,22 @@ h3 {
 
 /* Clients */
 
+.clients-page .hero {
+    background-image:
+    url('./images/car-repair-362150_1920.jpg');
+    background-size: cover;
+    background-repeat: none;
+    height: 600px;
+    background-position: 50% 50%;
+    padding-bottom: 20px;
+    padding-left: 140px;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
 .clients-page .container h3 {
     font-size: 40px;
     color: white;
@@ -469,6 +485,10 @@ h3 {
     font-size: 20px;
     color: #008D9C;
     text-align: center;
+}
+
+.clients-page .top-section {
+    padding-top: 60px;
 }
 
 
