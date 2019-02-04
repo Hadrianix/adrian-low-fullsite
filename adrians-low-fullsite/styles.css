@@ -475,6 +475,22 @@ h3 {
     margin-top: 40px;
 }
 
+.clients-page .content {
+    display: flex;
+    flex-wrap: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    height: 600px;
+    color: white;
+}
+
+@media(max-width:600px) {
+    .clients-page .content {
+        padding-right: 70px;
+    }
+}
+
 .clients-page .container h3 {
     font-size: 40px;
     color: white;
@@ -587,7 +603,7 @@ h3 {
     height: 500px;
     background-position: 50% 50%;
     padding-bottom: 20px;
-    padding-left: 140px;
+    padding-left: 160px;
     align-items: flex-end;
     display: flex;
     flex-direction: column;
@@ -619,7 +635,7 @@ h3 {
 
 .contactpage .container p {
     text-align: center;
-    color: white;
+    color: #008D9C;
 }
 
 .contactpage .hero {
@@ -641,15 +657,16 @@ h3 {
 
 }
 
-
-
-.aboutpage form {
+form {
     padding-left: 160px;
-    margin-left: 160px;
 }
 
+
+
+
+
 @media(max-width:600px) {
-    .aboutpage form {
+    form {
         padding-left: 0;
     }
 }
